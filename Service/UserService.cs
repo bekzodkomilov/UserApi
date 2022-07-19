@@ -27,14 +27,14 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }
+     public Task<(bool IsSuccess, Exception e)> UpdateAsync(User user)
+    {
+        throw new NotImplementedException();
+    }
 
     public Task<(bool IsSuccess, Exception e)> InsertAsync(User user)
     {
         throw new NotImplementedException();
     }
 
-    public Task<(bool IsSuccess, Exception e)> UpdateAsync(User user)
-    {
-        throw new NotImplementedException();
-    }
 }
